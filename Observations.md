@@ -48,7 +48,12 @@ Newnode =  (struct Node*)malloc(sizeof(struct Node))
 - sizeof() - how much memory to allocate
 - struct Node - the structure in which the memory needs to be allocated 
 
-- rand() function - 
+- rand() function - `rand() % (N + 1)`
+	- N is the max value you want
+	- didnt understand the entire logic
 
 - variable declared inside a switch case cannot be used outside it, variable has to be declared outside switch case - scope error
-- 
+
+---
+
+
