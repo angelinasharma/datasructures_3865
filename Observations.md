@@ -33,3 +33,22 @@ int A[size];
 ```
 terminated by signal SIGSEGV (Address boundary error)
 ```
+
+- unsure where and how to put do-while loop without using functions
+- if you enter a letter instead of a number it goes into an infinite loop
+---
+### Linked list
+
+- **New node** 
+```c
+Newnode =  (struct Node*)malloc(sizeof(struct Node))
+```
+- (struct Node*) - Type-casting for the memory allocation 
+- malloc - memory allocation
+- sizeof() - how much memory to allocate
+- struct Node - the structure in which the memory needs to be allocated 
+
+- rand() function - 
+
+- variable declared inside a switch case cannot be used outside it, variable has to be declared outside switch case - scope error
+- 
