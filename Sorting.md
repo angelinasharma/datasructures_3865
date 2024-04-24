@@ -12,13 +12,11 @@
 
 best case running time -> O(n)
 worst case running time -> O(n^2)
-
 ###### Advantages
 1. This algorithm is always beneficial in small set of data
 2. This algorithm is efficient on substantially sorted 
 3. It is 40% faster than selection sorter and twice as faster than bubble sort 
 4. It requires less memory space (only O(1))
-5. 
 ###### Algorithm
 1. start from n to n-1
 2. tmp = a[c];
