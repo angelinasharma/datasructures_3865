@@ -20,7 +20,7 @@ worst case running time -> O(n^2)
 ###### Algorithm
 1. start from n to n-1
 2. tmp = a[c];
-3. q = c  - 1;
+3. q = c - 1;
 4. while(tmp < a[q])
 	1. a[c] = a[q]    -> swapping condition
 	2. q = q-1
